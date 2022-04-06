@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'League Gothic', sans-serif;
+}
+ul{
+    list-style: none;
+}
+#plus{
+    float:right;
+    margin-right:20px;
+    cursor:pointer;
+}
+h1{
+    /* margin:5px 10px; */
+    padding:10px 5px;
+    background-color: #4895ef;
+    color:white;
+}
+#container{
+    border:1px solid black;
+    width:360px;
+    margin:50px auto;
+}
+.completed{
+    text-decoration: line-through;
+    color:gray;
+}
+#inp{
+    font-size:24px;
+    width:100%;
+    box-sizing: border-box;
+    padding:8px 4px;
+}
+li{
+    font-size: 20px;
+    /* border:1px solid black; */
+    margin:10px;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 0px 0px 3px rgb(104,104,104);
+    cursor:pointer;
+}
+i{
+    margin-right: 10px;
+}
+input:focus{
+    outline:none;
+}
+li:nth-of-type(2n+1){
+    background-color: #e85d04;
+}
+li:nth-of-type(2n+2){
+    background-color: #f9c74f;
+}
+body{
+    background-image: linear-gradient(to right,#343a40 , #adb5bd);
+}
